@@ -23,4 +23,7 @@ The other 3, on the right, begin with 100% exploration and are slowly going to 1
 Each 8 move the main neural network is fitted.
 the target neural network is updated every 1000 move.
 
-The matlotib plots are integrated in the pygame window, and represent score for each game played on the main one (on top)
+The matlotib plots are integrated in the pygame window, and represent score for each game played on the main one (on top) :
+- Each dot represent one game
+- The red line is the mean of the last 20 games
+- The green line is the mean of the last 100 games
